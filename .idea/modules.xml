@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZLCommonCell-Android.iml" filepath="$PROJECT_DIR$/ZLCommonCell-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlcommoncell/zlcommoncell.iml" filepath="$PROJECT_DIR$/zlcommoncell/zlcommoncell.iml" />
+    </modules>
+  </component>
+</project>

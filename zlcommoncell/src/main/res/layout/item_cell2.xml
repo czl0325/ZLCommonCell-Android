@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#eee"/>
+
+    <TextView
+        android:id="@+id/leftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="刘亦菲"
+        app:layout_constraintTop_toBottomOf="@id/topImage"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/rightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="影视演员"
+        android:gravity="right"
+        app:layout_constraintTop_toTopOf="@id/leftText"
+        app:layout_constraintRight_toRightOf="@id/topImage"/>
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/leftText"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toRightOf="@id/rightText"
+        app:layout_constraintLeft_toLeftOf="@id/leftText"
+        android:gravity="left"
+        app:layout_constraintHorizontal_bias="0"
+        tools:text="刘亦菲，1987年8月25日出生于湖北省武汉市，华语影视女演员、歌手，毕业于北京电影学院2002级表演系本科班。"/>
+
+</android.support.constraint.ConstraintLayout>
